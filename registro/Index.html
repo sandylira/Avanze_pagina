@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<META charset="UTF-8">
+    	<title>proyecto</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+		<script type="text/javascript">
+		
+		function valida(){
+			var el1=document.getElementById('contra').value;
+			var el2=document.getElementById('contra1').value;
+			if(el1==el2){alert("diferentes");}
+		}
+		
+		</script>
+
+	</head>
+	<body>
+		<h1>Registro de usuarios</h1>
+		<table id="form">
+			<tr>
+				<td align="center">
+					<img src="user.jpg" alt="user"><br><br>
+
+					<P ALIGN=left><label for= "seleccionar foto">seleccionar foto:</label><br>
+        			<input type="file" name="foto"><br>
+        		</td>
+				
+			<td>
+				<form method="POST" natame="form1" action="ale.php" onsubmit="funcionar();">
+		        Nombre <input type="text" id="cajatext" placeholder="nombre" /><br><br>
+			    User <input type="text" id="cajatext" placeholder="user" /><br><br>
+				Password <input type="password" name="pass" id="contra" placeholder="Password" onkeydown="valida()"><br><br>
+				Repeat pass <input type="password" name="pass" id="contra1" placeholder="R Password" onkeydown="valida()"><br><br>
+				E-mail <input type="text" id="cajatext " placeholder="e-mail"><br><br>
+				Facebook <input type="text" id="cajatext" placeholder="facebook"> <br><br>
+				Twitter <input type="text" id="cajatext" placeholder="twitter"> <br><br>
+
+				Seleccione su pais:
+				<select name="pais">
+					<option value="1">Argentina</option>
+					<option value="2">España</option>
+					<option value="3">México</option>
+					<option value="4">Guatemala</option>
+					<option value="5">Honduras</option>
+					<option value="7">El Salvador</option>
+					<option value="8">Venezuela</option>
+					<option value="9">Colombia</option>
+					<option value="10">Cuba</option>
+					<option value="11">Bolivia</option>
+					<option value="13">Perú</option>
+					<option value="14">Ecuador</option>
+					<option value="15">Paraguay</option>
+					<option value="16">Uruguay</option>
+					<option value="17">Chile</option>
+				</select>
+
+				<P ALIGN=right><input type="submit" value="enviar" class="buton" onclick="funcionar()">
+				<input type="reset" value="Cancelar" class="buton">
+				</td>
+				<br></td>
+
+				
+			</tr>
+			
+			
+				
+			</table>
+		</div>
+	</body>
+</html>

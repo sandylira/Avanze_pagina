@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+body{
+	background-image: url(fondo.jpg);
+	text-align: center;
+	margin-top: 0px; 
+    margin-top: 50px;
+}
+#form{
+    padding-top: 100px;
+	padding-right: 50px;
+	margin: 0 auto;
+	background-color: #F3E2A9;
+	width: 400px;
+	height: 160px;
+	border-radius: 40px;
+}.buton1{
+	padding: 6px;
+	margin-top: 10px;
+	width: 100px;
+	height: 40px;
+	background-color: #DBA901;
+}
+.buton1:hover{
+	background-color: #886A08;
+}

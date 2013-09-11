@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 90;
+	font-family: arial;
+}
+body{
+	background-image: url(cafe.jpg);
+	text-align: center;
+	margin-top: 0px; 
+    margin-top: 25px;
+}
+h1{
+
+}
+#form{
+	padding: 40px;
+	text-align: right;
+	margin: 0 auto;
+	background-color: #F3E2A9;
+	border-radius: 40px;
+}
+#cajatext {
+	padding:4px;
+	border-radius: 4px;
+	border: none;
+	margin-bottom: -5px;
+	border-color: blue;
+}
+
+.buton{
+	padding: 6px;
+	margin-top: 10px;
+	width: 100px;
+	height: 40px;
+	background-color: #DBA901;
+}
+.buton:hover{
+	background-color: #886A08;
+
+}
